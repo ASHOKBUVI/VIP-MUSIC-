@@ -1,8 +1,8 @@
-from VipX.core.bot import VipXBot
-from VipX.core.dir import dirr
-from VipX.core.git import git
-from VipX.core.userbot import Userbot
-from VipX.misc import dbb, heroku, sudo
+from FunX.core.bot import VipXBot
+from FunX.core.dir import dirr
+from FunX.core.git import git
+from FunX.core.userbot import Userbot
+from FunX.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
 from .logging import LOGGER
@@ -19,7 +19,7 @@ heroku()
 sudo()
 
 # Clients
-app = VipXBot()
+app = FunXBot()
 
 userbot = Userbot()
 
