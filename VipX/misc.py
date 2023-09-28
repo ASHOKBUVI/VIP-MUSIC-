@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from VipX.core.mongo import pymongodb
+from FunX.core.mongo import pymongodb
 
 from .logging import LOGGER
 
